@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #c4b7a6;
+}
+
+#layout {
+    margin: auto;
+    width: 800px;
+    height: 100vh;
+    border: 3px solid #dac292;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;        
+}
+
+nav a {
+    color: #b9936c;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 1.125em;
+}
+
+nav .active {
+    background-color: #b9936c;
+    color: #e6e2d3;
+}
+
+p {
+    font-size: 1.125em;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+.gallery {
+    margin: 4px;
+    padding: 4px;
+    background-color: #b9936c;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    padding: 4px;
+}
